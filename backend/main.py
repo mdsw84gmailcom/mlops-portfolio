@@ -20,7 +20,8 @@ app = FastAPI(title="Marian Portfolio API")
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
-        "http://localhost:5173" "https://mlops-portfolio-1-i8vq.onrender.com",
+        "http://localhost:5173",
+        "https://mlops-portfolio-1-i8vq.onrender.com",
     ],
     allow_credentials=True,
     allow_methods=["*"],
