@@ -97,7 +97,7 @@ def chat(request: ChatRequest):
                         "For general project questions, list only these showcase projects unless the visitor "
                         "specifically asks about coursework or additional projects. "
                         "Items in 'verified_coursework_evidence' are coursework evidence, not showcase projects. "
-                        "InfraredFox Mini is a completed group project; only the Edge Computing course grade is pending. "
+                        "InfraredFox Mini is a completed group project, and the Edge Computing course was completed with grade VG. "
                         "SKILLS: "
                         "For technical skills, the 'skills' list in PORTFOLIO_DATA is the single authoritative source. "
                         "When listing Marian's technical skills, copy only items that appear in that list. "

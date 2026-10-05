@@ -55,7 +55,7 @@ PORTFOLIO_DATA = {
             "AI-enhanced Knowledge Strategy and Hybrid AI Teams": "G",
             "MLOps and Cloud Platforms": "G",
             "Business (Affärsmannaskap)": "VG",
-            "Edge Computing": "Completed - grade pending",
+            "Edge Computing": "VG",
         },
         "current": {
             "Continuous Integration and Delivery",
@@ -218,7 +218,7 @@ PORTFOLIO_DATA = {
             "experience_level": (
                 "Completed coursework at Nackademin. Marian studied and practiced how AI tools "
                 "and AI agents can be integrated into knowledge work and hybrid human-AI teams. "
-                "The course covered AI agents, multi-agent architectures, prompt design, chatbots, "
+                "The course covered AI agents, multi-agent architectures, prompt design, chatbots, "dge 
                 "AI assistants and critical evaluation of AI-generated information. "
                 "Specific agent and LLM experience should also be supported by Marian's project "
                 "and repository evidence where available."
@@ -245,10 +245,8 @@ PORTFOLIO_DATA = {
                 "business provides additional real-world context beyond the coursework."
             ),
         },
-    },
-    "coursework_awaiting_grade": {
         "Edge Computing": {
-            "status": "Completed - grade pending",
+            "grade": "VG",
             "topics": [
                 "Edge Computing",
                 "IoT",
@@ -282,6 +280,7 @@ PORTFOLIO_DATA = {
             ),
         },
     },
+    
     "verified_coursework_evidence": {
         "Machine Learning coursework repository": {
             "repository": "machine_learning_marian_desilva_mlops25",
@@ -570,7 +569,7 @@ PORTFOLIO_DATA = {
         "InfraredFox Mini": {
             "type": "Completed group project",
             "context": "Edge Computing coursework at Nackademin",
-            "grade": "Not yet received",
+            "grade": "VG",
             "project_goal": (
                 "Build an edge computing and IoT proof of concept for detecting and "
                 "monitoring objects entering railway or metro platform risk zones."
@@ -626,7 +625,7 @@ PORTFOLIO_DATA = {
             ],
             "status_note": (
                 "The InfraredFox Mini project is completed. The Edge Computing "
-                "course grade has not yet been received and should not be inferred."
+                "course is completed with the grade VG."
             ),
             "evidence_note": (
                 "InfraredFox Mini was a group project. The overall architecture and "
@@ -857,7 +856,7 @@ PORTFOLIO_DATA = {
             "MicroPython, sensors and MQTT communication. "
             "The goal is to build a small end-to-end IoT pipeline where sensor data is collected "
             "at the edge, transmitted and processed for monitoring. "
-            "The InfraredFox Mini group project is completed. The final Edge Computing course grade is still pending."
+            "The InfraredFox Mini group project is completed. The Edge Computing course is completed with the grade VG."
         ),
     },
     "background": (
