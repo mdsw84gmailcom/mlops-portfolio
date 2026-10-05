@@ -125,6 +125,12 @@ def chat(request: ChatRequest):
 
         answer = response.choices[0].message.content
 
+        if answer and answer.strip() == "User Safety: safe":
+            answer = (
+                "I'm having trouble generating a response right now. "
+                "Please try again."
+            )
+
     except Exception as error:
         print(f"LLM error: {error}")
         answer = (
