@@ -21,7 +21,7 @@ app.add_middleware(
     CORSMiddleware,
     allow_origins=[
         "http://localhost:5173",
-        "https://mlops-portfolio-1.onrender.com",
+        "https://marian-desilva.onrender.com",
     ],
     allow_credentials=True,
     allow_methods=["*"],
