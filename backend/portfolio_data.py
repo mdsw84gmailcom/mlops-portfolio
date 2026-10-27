@@ -218,7 +218,7 @@ PORTFOLIO_DATA = {
             "experience_level": (
                 "Completed coursework at Nackademin. Marian studied and practiced how AI tools "
                 "and AI agents can be integrated into knowledge work and hybrid human-AI teams. "
-                "The course covered AI agents, multi-agent architectures, prompt design, chatbots, "dge 
+                "The course covered AI agents, multi-agent architectures, prompt design, chatbots, "
                 "AI assistants and critical evaluation of AI-generated information. "
                 "Specific agent and LLM experience should also be supported by Marian's project "
                 "and repository evidence where available."
@@ -280,7 +280,6 @@ PORTFOLIO_DATA = {
             ),
         },
     },
-    
     "verified_coursework_evidence": {
         "Machine Learning coursework repository": {
             "repository": "machine_learning_marian_desilva_mlops25",
